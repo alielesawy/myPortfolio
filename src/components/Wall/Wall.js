@@ -21,6 +21,8 @@ import badge4 from "../../Assets/Badges/badge4.png";
 import badge5 from "../../Assets/Badges/badge5.png";
 import badge6 from "../../Assets/Badges/badge6.png";
 import badge0 from "../../Assets/Badges/badge0.png";
+import badge7 from "../../Assets/Badges/badge7.png";
+import badge8 from "../../Assets/Badges/badge8.png";
 function Wall() {
   // State to track which content to display (certificates or badges)
   const [displayType, setDisplayType] = useState("certificates");
@@ -175,11 +177,22 @@ function Wall() {
               <Col md={4} className="project-card">
                 <WallCard
                   imgPath={badge6}
-                  certLink="https://catalog-education.oracle.com/pls/certview/sharebadge?id=3B1A68E925FA950EAA4B656B8D5F5065DBFA619519D2FF3B1CB9EE146C4FFE0D
-"
+                  certLink="https://catalog-education.oracle.com/pls/certview/sharebadge?id=3B1A68E925FA950EAA4B656B8D5F5065DBFA619519D2FF3B1CB9EE146C4FFE0D"
                 />
               </Col>
-              {/* Add more badge cards here as needed */}
+              <Col md={4} className="project-card">
+                <WallCard
+                  imgPath={badge7}
+                  certLink="https://www.credly.com/badges/3bf93362-04e4-412e-aa5e-217281794323/public_url"
+                />
+              </Col>
+              <Col md={4} className="project-card">
+                <WallCard
+                  imgPath={badge8}
+                  certLink="https://www.credly.com/badges/66a517e5-8ea8-4691-90d2-17c60cb0b7d7/public_url"
+                />
+              </Col>
+              
             </Row>
           </>
         )}

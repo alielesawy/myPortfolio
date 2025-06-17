@@ -7,6 +7,14 @@ function Experience() {
 
   const experiences = [
     {
+      title: "DevOps Engineer",
+      company: "Gorizm",
+      duration: "May 2025 - Present",
+      details: [
+        "Collaborated with development teams to accelerate the SDLC by establishing CI/CD pipelines and containerizing microservices using Docker. Managed the setup of diverse environments (testing, staging, production) and planned application deployments on AWS EKS, incorporating Service Mesh to address infrastructure-layer cross-cutting issues."
+      ],
+    },
+    {
       title: "DevOps Intern",
       company: "ZeroSploit",
       duration: "March 2025 - Present",
