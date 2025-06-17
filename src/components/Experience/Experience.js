@@ -17,7 +17,7 @@ function Experience() {
     {
       title: "DevOps Intern",
       company: "ZeroSploit",
-      duration: "March 2025 - Present",
+      duration: "March 2025 - April 2025",
       details: [
         "Focused on containerization and orchestration using Docker and Kubernetes (k8s).",
         "Designed and deployed the IRIS application on Kubernetes clusters for internal use.",
