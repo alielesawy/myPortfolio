@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import Wall from "./components/Wall/Wall";
 import Experience from "./components/Experience/Experience";
+import AdminPanel from "./components/Admin/AdminPanel";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -44,6 +46,7 @@ function App() {
           <Route path="/wall" element={<Wall />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="/admin" element={<AdminPanel />} />
         </Routes>
         <Footer />
       </div>

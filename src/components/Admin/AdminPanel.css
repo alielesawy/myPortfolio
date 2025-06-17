@@ -1,0 +1,86 @@
+/* src/components/Admin/AdminPanel.css */
+
+.admin-panel-page {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.admin-card {
+    background-color: #1b1b2f !important; /* Deeper purple-ish black */
+    border: 1px solid #c770f0 !important;
+    color: white !important;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.admin-list-item {
+    background-color: #1b1b2f !important;
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-list-item h5 {
+    color: #c770f0;
+    margin-bottom: 0.25rem;
+}
+
+.admin-list-item p {
+    color: rgba(255, 255, 255, 0.7);
+    white-space: pre-wrap; /* Ensure content wraps */
+    word-break: break-word;
+}
+
+.admin-nav-tabs .nav-link {
+    color: #c770f0;
+    border: 1px solid transparent !important;
+    border-bottom: 1px solid #333 !important;
+}
+
+.admin-nav-tabs .nav-link.active {
+    color: white;
+    background-color: #c770f0;
+    border-color: #c770f0 !important;
+    font-weight: bold;
+}
+
+.btn-admin-primary {
+    background-color: #c770f0 !important;
+    border-color: #c770f0 !important;
+    color: white !important;
+}
+
+.btn-admin-primary:hover {
+    background-color: #b25edb !important;
+    border-color: #b25edb !important;
+}
+
+.admin-form-control {
+    background-color: #2a2a3a !important;
+    color: white !important;
+    border: 1px solid #444 !important;
+}
+
+.admin-form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(199, 112, 240, 0.5) !important;
+}
+
+/* Modal Styling */
+.admin-modal .modal-content {
+    background-color: #1b1b2f;
+    color: white;
+    border: 1px solid #c770f0;
+    border-radius: 0.5rem;
+}
+
+.admin-modal .modal-header {
+    border-bottom: 1px solid #333;
+}
+
+.admin-modal .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
